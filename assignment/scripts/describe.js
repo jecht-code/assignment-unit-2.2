@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// assign variable name to 'Dane'
+// looks to equal to assign mary and its data type.  The date type matches but not  the string.
+// since it doesnt equal it will console.log 'How do you go?'
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// variable secret is not delcare
+// variable code is delcared as 123
+// first condition meets the condition of 123.  so secret gets assigned to super and code gets multiplied by 2
+// second condition is not greater than 250 so secret gets reassigned to duper thus, console.log(secret) is duper.
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// assigned 3 variables isStudent is true, age is 34, zip is 55407
+// each statment gets checked to see if it matches the stament if not it runs the next one.  we see it doesnt not match
+// any of the ones listed except the third statement which is isStudent === true.  which then it spits out
+// "Welcome to 'Prime"
 
 //CODE
 /*
@@ -136,7 +136,7 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
-}
+  colorTwo = 'purple';}
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -147,7 +147,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-if (temp > 39 || time >= 4) {
+if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 }
 */
@@ -161,9 +161,8 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
-  console.log('no entry');
-} else {
   console.log('enter');
+} else {
+  console.log('no entry');
 }
 */
-
